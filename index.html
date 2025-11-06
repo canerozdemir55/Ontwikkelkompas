@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OntwikkelKompas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero" id="home">
+        <div class="hero__overlay"></div>
+        <nav class="nav">
+            <div class="nav__logo">Ontwikkel<span>Kompas</span></div>
+            <input type="checkbox" id="nav-toggle" class="nav__toggle">
+            <label for="nav-toggle" class="nav__burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#how">Hoe het werkt</a></li>
+                <li><a href="#professionals">Voor Zorgprofessionals</a></li>
+
+<li><a href="#demo">Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero__content">
+            <h1>Inzicht in ontwikkeling, richting voor groei</h1>
+            <p>OntwikkelKompas helpt zorgprofessionals bij het volgen van de ontwikkeling van kinderen en cliënten over vijf cruciale domeinen.</p>
+            <div class="hero__cta">
+                <a class="btn btn--primary" href="#demo">Bekijk demo</a>
+                <button class="btn btn--ghost" type="button" id="download-zip-btn">Download website</button>
+                <a class="btn btn--ghost" href="#contact">Vraag meer info aan</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="how">
+            <div class="section__intro">
+                <h2>Hoe OntwikkelKompas werkt</h2>
+                <p>Visualiseer de ontwikkeling van elk kind met een overzichtelijk dashboard. Vijf ontwikkelingsgebieden worden in kaart gebracht op basis van de Nederlandse basisschoolgroepen (1 t/m 8). Per domein geef je aan op welk leerjaarniveau het kind functioneert. Zo ontdek je snel waar groei plaatsvindt en welke gebieden extra ondersteuning vragen.</p>
+            </div>
+            <div class="scale-demo">
+                <div class="scale-demo__card">
+               
+ <header class="scale-demo__header">
+                        <h3>Voorbeeld weergave</h3>
+                        <p>Elke slider vertegenwoordigt een ontwikkelingsgebied met de groepen 1 t/m 8.</p>
+                    </header>
+                    <div class="scale-demo__sliders">
+                        <div class="scale-demo__row">
+                            <span>🧠 Cognitief</span>
+                            <div class="slider-track" data-value="6">
+                                <div class="slider-fill" style="width: 75%"></div>
+                                <span class="slider-label">Groep 6</span>
+                            </div>
+                        </div>
+                        <div class="scale-demo__row">
+                            <span>✋ Motorisch</span>
+                            <div class="slider-track" data-value="4">
+                                <div class="slider-fill" style="width: 50%"></div>
+                                <span class="slider-label">Groep 4</span>
+                            </div>
+                        </div>
+                        <div class="scale-demo__row">
+                            <span>❤️ Sociaal-emotioneel</span>
+                            <div class="slider-track" data-value="5">
+                                <div class="slider-fill" style="width: 62.5%"></div>
+                                <span class="slider-label">Groep 5</span>
+                            </div>
+ </div>
+                        <div class="scale-demo__row">
+                            <span>🧩 Werkhouding</span>
+                            <div class="slider-track" data-value="6">
+                                <div class="slider-fill" style="width: 75%"></div>
+                                <span class="slider-label">Groep 6</span>
+                            </div>
+                        </div>
+                        <div class="scale-demo__row">
+                            <span>🕊️ Zelfredzaamheid</span>
+                            <div class="slider-track" data-value="5">
+                                <div class="slider-fill" style="width: 62.5%"></div>
+                                <span class="slider-label">Groep 5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="scale-demo__footer">
+                        <small>Groep 1 = startniveau, Groep 8 = eindniveau. OntwikkelKompas vertaalt scores naar visuele profielen.</small>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--alt" id="professionals">
+            <div class="section__grid">
+<div>
+                    <h2>Voor zorgprofessionals</h2>
+                    <p>OntwikkelKompas is ontwikkeld voor orthopedagogen, jeugdprofessionals, therapeuten en leerkrachten die in één oogopslag inzicht willen in de brede ontwikkeling van kinderen. Het dashboard maakt individuele groei zichtbaar en helpt bij het opstellen van gerichte ontwikkelingsplannen.</p>
+                    <ul class="feature-list">
+                        <li><strong>Samenhang:</strong> Vergelijk domeinen om sterke en kwetsbare kanten te herkennen.</li>
+                        <li><strong>Groepsanalyse:</strong> Voeg meerdere kinderen toe voor een overzicht op groepsniveau.</li>
+                        <li><strong>Planmatige ondersteuning:</strong> Koppel doelen aan ontwikkelingsniveaus en monitor voortgang.</li>
+                        <li><strong>Rapportage:</strong> Deel visuele profielen met collega’s en ouders.</li>
+                    </ul>
+                </div>
+                <aside class="guideline">
+                    <h3>Richtlijnen per domein</h3>
+                    <div class="guideline__domain">
+                        <h4>🧠 Cognitief</h4>
+                        <ul>
+                            <li><strong>Groep 1-2:</strong> taalbegrip, kleuren, vormen, eerste cijfers.</li>
+                            <li><strong>Groep 3-4:</strong> leren lezen en rekenen, korte concentratie.</li>
+                            <li><strong>Groep 5-6:</strong> begrijpend lezen, vermenigvuldigen, logisch redeneren.</li>
+                            <li><strong>Groep 7-8:</strong> abstract denken, complexe teksten en wiskundige problemen.</li>
+                        </ul>
+                    </div>
+                    <div class="guideline__domain">
+                    
+  <h4>✋ Motorisch</h4>
+                        <ul>
+                            <li><strong>Groep 1-2:</strong> grove motoriek (rennen, springen, knippen).</li>
+                            <li><strong>Groep 3-4:</strong> fijne motoriek (schrijven, tekenen).</li>
+                            <li><strong>Groep 5-6:</strong> coördinatie, balvaardigheid, tempo.</li>
+                            <li><strong>Groep 7-8:</strong> precisie, snelheid, complexe bewegingen.</li>
+                        </ul>
+                    </div>
+                    <div class="guideline__domain">
+                        <h4>❤️ Sociaal-emotioneel</h4>
+                        <ul>
+                            <li><strong>Groep 1-2:</strong> emoties herkennen, samen spelen.</li>
+                            <li><strong>Groep 3-4:</strong> omgaan met regels en feedback.</li>
+                            <li><strong>Groep 5-6:</strong> zelfvertrouwen, samenwerken.</li>
+                            <li><strong>Groep 7-8:</strong> empathie, conflictoplossing, zelfstandige keuzes.</li>
+                        </ul>
+                    </div>
+                    <div class="guideline__domain">
+                        <h4>🧩 Werkhouding</h4>
+                        <ul>
+                            <li><strong>Groep 1-2:</strong> taakgericht blijven, aandacht vasthouden.</li>
+                            <li><strong>Groep 3-4:</strong> instructies volgen, initiatief nemen.</li>
+                            <li><strong>Groep 5-6:</strong> plannen en afronden van taken.</li>
+                            <li><strong>Groep 7-8:</strong> zelfreflectie en verantwoordelijkheid nemen.</li>
+                        </ul>
+                    </div>
+ <div class="guideline__domain">
+                        <h4>🕊️ Zelfredzaamheid</h4>
+                        <ul>
+                            <li><strong>Groep 1-2:</strong> basiszelfzorg, eenvoudige routines.</li>
+                            <li><strong>Groep 3-4:</strong> eigen spullen beheren, hulp vragen.</li>
+                            <li><strong>Groep 5-6:</strong> zelfstandig beslissingen nemen.</li>
+                            <li><strong>Groep 7-8:</strong> verantwoordelijkheid voor eigen leren en gedrag.</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="demo">
+            <div class="section__intro">
+                <h2>Demo &amp; Dashboard</h2>
+                <p>Experimenteer met de demo om te ervaren hoe OntwikkelKompas profielen vormt op basis van de leerjaarniveaus. Voeg kinderen toe, stel per domein het niveau in en zie direct het profiel verschijnen.</p>
+            </div>
+            <div class="dashboard">
+               
+<div class="dashboard__form">
+                    <h3>Nieuw kind toevoegen</h3>
+                    <form id="child-form">
+                        <div class="form-field">
+                            <label for="child-name">Naam</label>
+                            <input type="text" id="child-name" name="childName" placeholder="Bijv. Sam" required>
+                        </div>
+                        <div class="form-sliders">
+                            <div class="slider-field" data-domain="cognitief">
+                                <label for="cognitief-range">🧠 Cognitief <span class="slider-value" aria-live="polite">Groep 4</span></label>
+                                <input type="range" id="cognitief-range" name="cognitief" min="1" max="8" value="4">
+                            </div>
+                            <div class="slider-field" data-domain="motorisch">
+                                <label for="motorisch-range">✋ Motorisch <span class="slider-value" aria-live="polite">Groep 3</span></label>
+                                <input type="range" id="motorisch-range" name="motorisch" min="1" max="8" value="3">
+                            </div>
+                            <div class="slider-field" data-domain="sociaal">
+                                <label for="sociaal-range">❤️ Sociaal-emotioneel <span class="slider-value" aria-live="polite">Groep 5</span></label>
+                                <input type="range" id="sociaal-range" name="sociaal" min="1" max="8" value="5">
+                            </div>
+                            <div class="slider-field" data-domain="werkhouding">
+                                <label for="werkhouding-range">🧩 Werkhouding <span class="slider-value" aria-live="polite">Groep 4</span></label>
+                                <input type="range" id="werkhouding-range" name="werkhouding" min="1" max="8" value="4">
+                            </div>
+                       
+<div class="slider-field" data-domain="zelfredzaamheid">
+                                <label for="zelfredzaamheid-range">🕊️ Zelfredzaamheid <span class="slider-value" aria-live="polite">Groep 4</span></label>
+                                <input type="range" id="zelfredzaamheid-range" name="zelfredzaamheid" min="1" max="8" value="4">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--block">Profiel opslaan</button>
+                    </form>
+                </div>
+                <div class="dashboard__preview">
+                    <h3>Voorbeeldprofiel</h3>
+                    <div class="profile-card" id="preview-card">
+                        <header>
+                            <h4 id="preview-name">Nieuw kind</h4>
+                            <span>Ontwikkelingsprofiel</span>
+                        </header>
+                        <ul class="profile-stats" id="preview-stats">
+                            <!-- Dynamisch ingevuld -->
+                        </ul>
+                        <footer>
+                            <small>Versleep de sliders om de niveaus per domein bij te werken.</small>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard__list">
+                <h3>Kinderen in beeld</h3>
+                <div id="child-list" class="child-list">
+                    <!-- Dynamisch ingevuld -->
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--alt" id="contact">
+            <div class="contact">
+                <div>
+                    <h2>Contact</h2>
+                    <p>Wil je OntwikkelKompas inzetten binnen jouw organisatie of ben je benieuwd naar de volledige functionaliteiten? Neem contact met ons op.</p>
+                    <ul class="contact-info">
+                        <li><strong>E-mail:</strong> info@ontwikkelkompas.nl</li>
+                        <li><strong>Telefoon:</strong> 010 - 123 45 67</li>
+                    </ul>
+                </div>
+                <form class="contact__form">
+<div class="form-field">
+                        <label for="contact-name">Naam</label>
+                        <input type="text" id="contact-name" placeholder="Jouw naam" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-email">E-mailadres</label>
+                        <input type="email" id="contact-email" placeholder="jij@organisatie.nl" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-message">Bericht</label>
+                        <textarea id="contact-message" rows="4" placeholder="Vertel ons waarmee we kunnen helpen" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Verstuur bericht</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> OntwikkelKompas. Samen werken aan groei.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" integrity="sha512-b0cuLzrdbidKdvUSsfx8bVsgcuyo6ed15xnl2xe50Tzw9uQWGWpZJYG1ChcxrFAuo0xO+ogzAm8h1Hn0fl8F4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js" integrity="sha512-GuGQ2Dk6hBb1cnXjH9MuNoMNFcQJUO2c+hJ1ytY1/6Yr2vNh+lX6YsJhBKt3vnDnN/SfXhBx/4s3O3kp7Qj3OA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
